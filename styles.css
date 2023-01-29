@@ -34,7 +34,7 @@ a:hover{
     transition: color 0.33s;
   }
 
-img{
+.logo{
     height: 40px;
     margin-top: 5px;
     margin-left: -50px;
