@@ -1,54 +1,48 @@
-html{background-color: rgb(235, 235, 235);}
-
-nav {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    width: 100%;
-    position: fixed;
-    height: 60px;
-    top: 0;
-    left: 0;
-    background-color: rgb(255, 255, 255);
-  }
-  
-  .rightNav {
-    margin-left: 800px;
-  }
-
-ul {
-    list-style: none;
-    display: flex;
-  }
-  
-a {
-    color: rgb(2, 2, 2);
-    text-decoration: none;
-    font-size: 18px;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    padding: 20px;
-  }
-
-a:hover{
-    color: rgb(233, 0, 0);
-    transition: color 0.33s;
-  }
-
-.logo{
-    height: 40px;
-    margin-top: 5px;
-    margin-left: -50px;
-  }
-
-  .active{
-    color: red;
-  }
-
-.welcome{
-  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-
+.background {
+  background-image: url(/media/Untitled-2.png);
+  background-attachment: fixed;
+  height: 100vh;
+  margin-left: -10px;
+  margin-right: -8px;
+  margin-top: -8px;
+  height: 700px;
 }
 
-.welcomeDesc{
-  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+h1 {
+  font-size: 90px;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  color: #fff;
+  text-align: center;
+  position: absolute;
+  top: 15%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.box-container {
+  display: flex;
+  justify-content: space-between;
+  margin: 50px;
+}
+
+.box {
+  background-color: rgba(255, 255, 255, 0.8);
+  border-radius: 10px;
+  padding: 20px;
+  width: 45%;
+  height: 200px;
+  text-align: center;
+}
+
+h2 {
+  font-size: 24px;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  color: #333;
+}
+
+p {
+  font-size: 18px;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  color: #333;
+  margin-top: 20px;
 }
