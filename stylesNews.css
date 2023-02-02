@@ -8,7 +8,7 @@ body {
     padding: 30px;
     font-size: 40px;
     text-align: center;
-    background: rgb(6, 6, 71);
+    background-color: rgb(4, 39, 8);
     color: white;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     }
@@ -38,7 +38,7 @@ body {
   }
 
   .homeButton {
-    background-color: rgb(3, 3, 63);
+    background-color: rgb(10, 43, 16);
     color: white;
     
     position: fixed;
@@ -57,16 +57,35 @@ body {
     }
     
     .homeButton:hover {
-    background-color: rgb(25, 25, 117);
-    cursor: pointer;
-    box-shadow: 0px 6px 12px 0px rgba(0, 0, 0, 0.3);
+      background-color: rgb(25, 70, 31);
+      cursor: pointer;
+      color: white;
+      text-decoration: none;
+      box-shadow: 0px 6px 12px 0px rgba(0, 0, 0, 0.3);
     }
-  
-  .homeButton:hover {
-    background-color: rgb(25, 25, 117);
-    cursor: pointer;
-    box-shadow: 0px 6px 12px 0px rgba(0, 0, 0, 0.3);
-  }
+
+    .smallButton {
+      background-color: rgb(10, 43, 16);
+      color: white;
+      
+      padding: 14px 24px;
+      border-radius: 5px;
+      
+      font-size: 18px;
+      font-weight: bold;
+      text-decoration: none;
+      
+      transition: background-color 0.2s ease-in-out;
+      box-shadow: 0px 4px 8px 0px rgba(0, 0, 0, 0.2);
+      }
+
+    .smallButton:hover {
+      background-color: rgb(25, 70, 31);
+      cursor: pointer;
+      color: white;
+      text-decoration: none;
+      box-shadow: 0px 6px 12px 0px rgba(0, 0, 0, 0.3);
+    }
 
   .footer-basic {
     padding:40px 0;
@@ -128,4 +147,3 @@ body {
     margin-bottom:0;
   }
   
-  /* Credit to https://epicbootstrap.com/snippets/footer-basic */
