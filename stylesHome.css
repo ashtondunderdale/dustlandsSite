@@ -108,3 +108,22 @@ h4{
 .arrows{
   margin-top: -80px;
 }
+
+@media only screen and (max-width: 768px) {
+  .box {
+    width: 90%;
+  }
+
+  .middle-box {
+    width: 90%;
+    margin-left: 5%;
+  }
+
+  .pixelArtImage {
+    margin-left: 5%;
+  }
+
+  .newsButton {
+    margin-left: 0;
+  }
+}
