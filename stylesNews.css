@@ -1,3 +1,7 @@
+html{
+  background-image: url(/media/backgroundTemp2.png);
+}
+
 body {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   }
@@ -114,6 +118,7 @@ body {
   
   .footer-basic ul a:hover {
     opacity:1;
+    color:rgb(5, 65, 5);
   }
   
   .footer-basic .social {
@@ -137,6 +142,8 @@ body {
   
   .footer-basic .social > a:hover {
     opacity:0.9;
+    color:rgb(5, 65, 5);
+
   }
   
   .footer-basic .copyright {
