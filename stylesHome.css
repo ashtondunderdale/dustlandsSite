@@ -40,7 +40,7 @@ h1 {
   padding: 20px;
   width: 40%;
   height: 440px;
-  text-align: left;
+  text-align: center;
   margin-left: 525px;
   border-top:  1px solid;
   margin-bottom: 150px;
@@ -61,7 +61,7 @@ p {
 }
 
 .pixelArtImage{
-  margin-top: -240px; 
+  margin-top: -190px; 
   margin-left: 425px;
 
 }
@@ -109,21 +109,30 @@ h4{
   margin-top: -80px;
 }
 
-@media only screen and (max-width: 768px) {
-  .box {
-    width: 90%;
+.homeButton {
+  background-color: rgb(10, 43, 16);
+  color: white;
+  
+  position: fixed;
+  top: 10px;
+  left: 10px;
+  
+  padding: 14px 24px;
+  border-radius: 5px;
+  
+  font-size: 18px;
+  font-weight: bold;
+  text-decoration: none;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  
+  transition: background-color 0.2s ease-in-out;
+  box-shadow: 0px 4px 8px 0px rgba(0, 0, 0, 0.2);
   }
-
-  .middle-box {
-    width: 90%;
-    margin-left: 5%;
+  
+  .homeButton:hover {
+    background-color: rgb(25, 70, 31);
+    cursor: pointer;
+    color: white;
+    text-decoration: none;
+    box-shadow: 0px 6px 12px 0px rgba(0, 0, 0, 0.3);
   }
-
-  .pixelArtImage {
-    margin-left: 5%;
-  }
-
-  .newsButton {
-    margin-left: 0;
-  }
-}
